@@ -1,0 +1,195 @@
+/*
+* @Author: 李亲亲ლ(°◕‵ƹ′◕ლ)
+* @Date:   2017-12-11 00:18:13
+* @Last Modified by:   李亲亲ლ(°◕‵ƹ′◕ლ)
+* @Last Modified time: 2017-12-12 08:45:03
+*/
+@import url('base.css');
+
+@font-face {
+  font-family: 'iconfont';  /* project id 500112 */
+  src: url('http://at.alicdn.com/t/font_500112_kwbkjpwslhpmygb9.eot');
+  src: url('http://at.alicdn.com/t/font_500112_kwbkjpwslhpmygb9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_500112_kwbkjpwslhpmygb9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_500112_kwbkjpwslhpmygb9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_500112_kwbkjpwslhpmygb9.svg#iconfont') format('svg');
+}
+body{
+	background:  #f0f0f0;
+}
+.pic{
+	width: 100%;
+	height: 11.3rem;
+	background: #fff;
+	position: relative;
+	
+}
+.img{
+	width: 100%;
+	height: 7.8rem;
+	display: flex;
+	justify-content: center;
+}
+.ouba{
+	height: 7.8rem;
+	text-align: center;
+	display: block;
+}
+.box{
+	width: 100%;
+	height: 3.43rem;
+	overflow: hidden;
+	position: relative;
+	border-bottom: 0.02rem solid #e4e4e4;
+}
+.wenzi{
+	margin-left: 0.52rem;
+	font-size: 0.42rem;
+	font-weight: bold;
+	color: #333;
+	display: block;
+	margin-top: 0.55rem;
+}
+.yueshou{
+	font-size: 0.34rem;
+	color: #999;
+	margin-left: 0.52rem;
+}
+.price{
+	font-size: 0.36rem;
+	color: #fb4e44;
+	margin-left: 0.52rem;
+	font-weight: bold;
+}
+.though{
+	font-size: 0.36rem;
+	color: #999;
+	text-decoration: line-through;
+}
+.icon{
+	font-family: 'iconfont';
+	font-size: 0.32rem;
+	color: #fb4e44;
+	margin-left: 0.52rem;
+}
+.price2{
+	font-size: 0.28rem;
+	color: #fb4e44;
+}
+.gouwuche{
+	width: 3.37rem;
+	height: 0.86rem;
+	background: #ffd161;
+	position: absolute;
+	right: 0.44rem;
+	bottom: 0.7rem;
+	border-radius: 0.4rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.iconfont{
+	font-family: 'iconfont';
+	font-size: 0.4rem;
+	color: #333;
+}
+.gouwuche a{
+	font-size: 0.38rem;
+	color: #333;
+}
+footer{
+	width: 100%;
+	height: 2.42rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+
+}
+.footer-top{
+	width: 100%;
+	height: 0.92rem;
+	background: #fff1cf;
+
+}
+.footer-top a{
+	font-size: 0.3rem;
+	color: #343434;
+	display: block;
+	line-height: 0.92rem;
+	text-align: center;
+}
+.footer-bot{
+	width: 100%;
+	height: 1.50rem;
+	background: #404040;
+}
+.footer-bot-left{
+	width: 2.08rem;
+	height: 1.50rem;
+	display: flex;
+	justify-content: center;
+	float: left;
+}
+.footer-bot-left img{
+	height: 1.5rem;
+
+}
+.footer-bot-center{
+	width: 5rem;
+	height: 0.5rem;
+	margin-top: 0.55rem;
+	float: left;
+
+}
+.footer-bot-center a{
+	font-size: 0.3rem;
+	color: #949494;
+}
+.footer-bot-right{
+	width: 2.04rem;
+	height: 0.5rem;
+	float: right;
+    margin-top: 0.55rem;
+}
+.footer-bot-right a{
+	font-size: 0.36rem;
+	color: #949494;
+}
+.shangpin{
+	width: 100%;
+	height: 2.65rem;
+	background: #fff;
+	overflow: hidden;
+}
+.spxx{
+	font-size: 0.38rem;
+	color: #999;
+	display: block;
+	margin-top: 0.6rem;
+	margin-left: 0.52rem;
+}
+.xiaoer{
+	font-size: 0.32rem;
+	color: #666;
+	display: block;
+	/* margin-top: 0.6rem; */
+	margin-left: 0.52rem;
+}
+.icon9{
+	font-family: 'iconfont';
+	font-size: 0.5rem;
+	position: absolute;
+	top: 0.25rem;
+	left: 0.25rem;
+	color: #fff;
+
+}
+.img a{
+	width: 1rem;
+	height: 1rem;
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 50%;
+	position: absolute;
+	top: 0.32rem;
+	left: 0.58rem;
+}

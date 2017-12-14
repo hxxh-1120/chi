@@ -1,0 +1,378 @@
+/*
+* @Author: 李亲亲ლ(°◕‵ƹ′◕ლ)
+* @Date:   2017-12-10 09:21:37
+* @Last Modified by:   李亲亲ლ(°◕‵ƹ′◕ლ)
+* @Last Modified time: 2017-12-10 23:13:47
+*/
+@import url('base.css');
+@font-face {
+  font-family: 'iconfont';  /* project id 500112 */
+  src: url('http://at.alicdn.com/t/font_500112_0fz8unmn07bep14i.eot');
+  src: url('http://at.alicdn.com/t/font_500112_0fz8unmn07bep14i.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_500112_0fz8unmn07bep14i.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_500112_0fz8unmn07bep14i.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_500112_0fz8unmn07bep14i.svg#iconfont') format('svg');
+}
+body{
+	background:  #f0f0f0;
+}
+header{
+	width:100%;
+	height: 3.84rem;
+	background: #f5cf00;
+	overflow: hidden;
+}
+.big{
+	width:100%;
+	height: 3.84rem;
+	background: rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+}
+.he-top{
+	width: 100%;
+	height: 1.46rem;
+	overflow: hidden;
+}
+.he-top-left{
+	width: 0.7rem;
+	height: 0.6rem;
+	margin-top: 0.39rem;
+	margin-left: 0.42rem;
+	float: left;
+}
+.he-top-left i{
+	font-family: 'iconfont';
+	font-size: 0.5rem;
+	color: #fff;
+
+}
+.he-top-right{
+	width: 4.5rem;
+	height: 0.7rem;
+	margin-top: 0.42rem;
+	margin-right: 0.31rem;
+	float: right;
+	display: flex;
+	justify-content: space-between;
+}
+.he-top-right i{
+	font-family: 'iconfont';
+	font-size: 0.5rem;
+	color: #fff;
+}
+.he-bot{
+	width: 100%;
+	height: 2.38rem;
+	
+	position: relative;
+}
+.he-bot-left{
+	width: 2.45rem;
+	height: 2.45rem;
+    
+    position: absolute;
+    top: 0.26rem;
+    left: 0.3rem;
+    z-index: 99;
+    float: left;
+}
+.he-bot-left img{
+	width: 2.45rem;
+}
+.he-bot-right{
+	width: 7.5rem;
+	height: 2.25rem;
+	
+	float: right;
+	margin-right: 0.3rem;
+}
+.text{
+	font-size: 0.52rem;
+	color: #fff;
+	margin-top: 0.3rem;
+
+}
+.text1{
+	font-size: 0.26rem;
+	color: #fff;
+}
+.he-bot-right-text{
+	width: 7.48rem;
+	height: 0.7rem;
+	
+	
+}
+.he-bot-right-text-box1{
+	height: 0.53rem;
+	width: 2.19rem;
+	border: 0.02rem solid #877f5f;
+	margin-top: 0.2rem;
+	float: left;
+}
+.he-bot-right-text-box1 a{
+	font-size: 0.34rem;
+	color: #15b0a0;
+	display: block;
+	text-align: center;
+	line-height: 0.53rem;
+}
+.he-bot-right-text-box2{
+	width: 1.64rem;
+	height: 0.53rem;
+	border: 0.02rem solid #c19e45;
+	margin-top: 0.2rem;
+	float: left;
+	margin-left: 0.3rem;
+	border-radius: 0.22rem;
+}
+.he-bot-right-text-box2 a{
+	font-size: 0.34rem;
+	color: #ffd161;
+	display: block;
+	text-align: center;
+	line-height: 0.53rem;
+}
+footer{
+	width: 100%;
+	height: 2.42rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+
+}
+.footer-top{
+	width: 100%;
+	height: 0.92rem;
+	background: #fff1cf;
+
+}
+.footer-top a{
+	font-size: 0.3rem;
+	color: #343434;
+	display: block;
+	line-height: 0.92rem;
+	text-align: center;
+}
+.footer-bot{
+	width: 100%;
+	height: 1.50rem;
+	background: #404040;
+}
+.footer-bot-left{
+	width: 2.08rem;
+	height: 1.50rem;
+	display: flex;
+	justify-content: center;
+	float: left;
+}
+.footer-bot-left img{
+	height: 1.5rem;
+
+}
+.footer-bot-center{
+	width: 5rem;
+	height: 0.5rem;
+	margin-top: 0.55rem;
+	float: left;
+
+}
+.footer-bot-center a{
+	font-size: 0.3rem;
+	color: #949494;
+}
+.footer-bot-right{
+	width: 2.04rem;
+	height: 0.5rem;
+	float: right;
+    margin-top: 0.55rem;
+}
+.footer-bot-right a{
+	font-size: 0.36rem;
+	color: #949494;
+}
+.huodong{
+	width: 100%;
+	height: 2.4rem;
+	background: #fff;
+	box-sizing: border-box;
+	border-bottom: 0.02rem solid #e4e4e4;
+	overflow: hidden;
+}
+.hd-top{
+	width: 100%;
+	height: 0.65rem;
+	
+	margin-top: 0.5rem;
+
+}
+.ht-top-left{
+	height: 0.45rem;
+	width: 0.45rem;
+	background: #ff635b;
+	float: left;
+	margin-left: 0.3rem;
+	margin-top: 0.1rem;
+}
+.ht-top-left a{
+	font-size: 0.28rem;
+	color: #fff;
+	display: block;
+	margin-top: -0.03rem;
+}
+.ht-top-center{
+	height: 0.45rem;
+	width: 8rem;
+	margin-left: 0.4rem;
+	float: left;
+
+}
+.ht-top-center a{
+	font-size: 0.26rem;
+	color: #333;
+}
+.ht-top-right{
+	width: 0.45rem;
+	height: 0.45rem;
+	float: right;
+	margin-right: 0.3rem;
+
+}
+.ht-top-right a{
+	color: #999;
+}
+.hd-bot{
+	width: 100%;
+	height: 1.04rem;
+	
+	margin-top: 0.15rem;
+	display: flex;
+	justify-content: space-around;
+}
+.hd-list{
+	height: 1.04rem;
+	width: 2.6rem;
+	
+
+}
+.hd-list a{
+	font-size: 0.4rem;
+	color: #666;
+	display: block;
+	text-align: center;
+	line-height: 1.04rem;
+}
+.hd-bot：first-child .hd-list a{
+	color: #000;
+}
+
+main{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	margin-bottom: 2.42rem;
+}
+.main-left{
+	width: 2.6rem;
+	height: 10rem;
+	position: fixed;
+	top: 6.24rem;
+	left: 0;
+	background: #fff;
+}
+.main-left-list{
+	width: 2.6rem;
+	height: 10rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.main-left-list li{
+	width: 2.6rem;
+	height: 1rem;
+}
+.main-left-list li a{
+	font-size: 0.4rem;
+	color: #666666;
+	display: block;
+	text-align: center;
+	line-height: 1rem;
+}
+.main-right{
+	width: 8.2rem;
+	height: auto;
+	background: #fff;
+	float: right;
+
+}
+.m-r-list{
+	width: 8.2rem;
+	height: 3.35rem;
+	
+	overflow: hidden;
+
+}
+.m-r-l-left{
+	width: 2.3rem;
+	height: 2.3rem;
+	
+	margin-top: 0.34rem;
+	float: left;
+}
+.m-r-l-left img{
+	height: 2.3rem;
+}
+.m-r-l-right{
+	width: 5.9rem;
+	height: 3.35rem;
+	float: right;
+}
+.ouba{
+	font-size: 0.4rem;
+	font-weight: bold;
+	margin-left: 0.26rem;
+	color: #333;
+}
+.dian{
+	font-size: 0.3rem;
+	color: #999;
+	margin-left: 0.26rem;
+}
+.yueshou{
+	font-size: 0.3rem;
+	color: #999;
+	margin-left: 0.26rem;
+}
+.price{
+	font-size: 0.36rem;
+	color: #fb4e44;
+	margin-left: 0.26rem;
+	font-weight: bold;
+}
+.though{
+	font-size: 0.36rem;
+	color: #999;
+	text-decoration: line-through;
+}
+.icon{
+	font-family: 'iconfont';
+	font-size: 0.32rem;
+	color: #fb4e44;
+	margin-left: 0.26rem;
+}
+.price2{
+	font-size: 0.28rem;
+	color: #fb4e44;
+}
+.jia{
+	width: 0.75rem;
+	height : 0.75rem;
+	background: #ffc745;
+	float: right;
+	border-radius: 50%;
+	margin-right: 0.35rem;
+	font-size: 0.33rem;
+	font-weight: bold;
+	color: #333;
+	text-align: center;
+	line-height: 0.75rem;
+}

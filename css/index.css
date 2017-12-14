@@ -1,0 +1,291 @@
+/*
+* @Author: 李亲亲ლ(°◕‵ƹ′◕ლ)
+* @Date:   2017-12-06 18:03:41
+* @Last Modified by:   李亲亲ლ(°◕‵ƹ′◕ლ)
+* @Last Modified time: 2017-12-14 16:35:12
+*/
+@import url('base.css');
+
+@font-face {
+  font-family: 'iconfont';  /* project id 500112 */
+  src: url('http://at.alicdn.com/t/font_500112_tjqko0f2g0wo2yb9.eot');
+  src: url('http://at.alicdn.com/t/font_500112_tjqko0f2g0wo2yb9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_500112_tjqko0f2g0wo2yb9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_500112_tjqko0f2g0wo2yb9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_500112_tjqko0f2g0wo2yb9.svg#iconfont') format('svg');
+}
+body{
+	background: #f0f0f0;
+}
+
+header{
+	width: 100%;
+	height: 1.4rem;
+	background: #ff6634;
+	display: flex;
+	align-items: center;
+}
+.dizhi{
+	width: 100%;
+	height: 0.96rem;
+	/* background: red; */
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.dizhi select{
+	background:#ff6634; 
+	width: 1.67rem;
+	height: 0.7rem;
+	color: #fff;
+	font-size: 0.5rem;
+	border: none;
+
+}
+.dizhi select:focus{
+	outline: none;
+}
+.shousuo{
+	width: 7.12rem;
+	height: 0.9rem;
+	border-radius: 0.4rem;
+	border: none;
+	text-align: center;
+	font-size: 0.38rem;
+}
+.iconfont1{
+	font-family: 'iconfont';
+	font-size: 0.72rem;
+	color: #fff9ff;
+}
+.nav-list{
+	width: 100%;
+	height: 4.54rem;
+	background: #fff;
+	border-bottom: 0.01rem solid #dbdbdb;
+	overflow: hidden;
+
+}
+.list-box{
+	width: 100%;
+	height: 3.5rem;
+	/* background: yellow; */
+	margin-top: 0.42rem;
+	display: flex;
+	flex-wrap: wrap;
+	
+	justify-content: space-around;
+}
+.list-box li{
+	width: 20%;
+	height: 1.75rem;
+	/* background: pink; */
+	
+}
+.list-box li img{
+	height: 1.02rem;
+	text-align: center;
+	margin-left: 0.6rem;
+
+}
+.list-box li p{
+	font-size: 0.34rem;
+	text-align: center;
+
+
+}
+.yuan{
+	width: 100%;
+	height: 0.5rem;
+	/* background: yellow; */
+	display: flex;
+	justify-content: center;
+	
+
+}
+.one{
+	width: 0.15rem;
+	height: 0.15rem;
+	background: #ff6a31;
+	border-radius: 50%;
+	margin-right: 0.25rem;
+	margin-top: 0.3rem;
+}
+.yuan .one:last-child{
+	background: #c2c2c2;
+}
+.meirifuli{
+	width: 100%;
+	height: 2rem;
+	background: #f2f2f2;
+	margin-top: 0.3rem;
+	display: flex;
+	align-items: center;
+}
+.meirifuli img{
+    width: 100%;
+}
+.qmdj{
+	width: 100%;
+	height: 19.65rem;
+	
+	margin-top: 0.3rem;
+	
+}
+
+
+footer{
+	width: 100%;
+	height: 1.3rem;
+	background: #fff;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 999;
+}
+.footer-list{
+	width: 100%;
+	height: 1.3rem;
+	background: #fff;
+	display: flex;
+
+}
+.footer-list li{
+	width: 33.3%;
+	height: 1.3rem;
+	
+}
+.iconfont2{
+	font-size: 0.6rem;
+	font-family: 'iconfont';
+	color: #676767;
+	display: block;
+	margin-top: 0.1rem;
+	text-align: center;
+}
+.footer-list li a{
+	font-size: 0.24rem;
+	color: #676767;
+	text-align: center;
+	display: block;
+	text-align: center;
+
+}
+.footer-list li:first-child i{
+	color: #fb692e;
+}
+.footer-list li:first-child a{
+	color: #fb692e;
+}
+.qmdj-list{
+	width: 100%;
+	height: 3.12rem;
+	background: #fff;
+	margin-bottom: 0.13rem;
+	display: flex;
+	align-items: center;
+	
+
+}
+.qmdj-nei{
+	width: 100%;
+	height: 2.4rem;
+	display: flex;
+}
+.qmdj-nei-left{
+	width: 2.4rem;
+	height: 2.4rem;
+	margin-left: 0.3rem;
+}
+.qmdj-nei-left img{
+	height: 2.4rem;
+}
+.qmdj-nei-right{
+	width: 7.5rem;
+	height: 2.4rem;
+}
+.qmdj-w{
+	font-size: 0.4rem;
+	color: #000;
+	margin-left: 0.3rem;
+
+}
+.daoyan{
+	font-size: 0.3rem;
+	color: #757575;
+	margin-left: 0.3rem;
+	display: block;
+	margin-top: 0.3rem;
+}
+.price{
+	font-size: 0.3rem;
+	color: #ff6034;
+	margin-left: 0.3rem;
+	margin-top: -0.3rem;
+	display: block;
+}
+.tese{
+	width: 100%;
+	height: 4.71rem;
+	background:#fff;
+	margin-bottom: 0.3rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+
+}
+.tese-top{
+	width: 10.21rem;
+  	height: 0.76rem;
+  	background:#fff;
+  	margin-top: 0.1rem;
+ }
+ .tese-top a{
+ 	color: #7a7a7a;
+ 	font-size: 0.38rem;
+ 	display: block;
+ 	text-align: center;
+ }
+ .tese-bot{
+	width: 10.21rem;
+  	height: 3.36rem;
+  	
+  	display: flex;
+
+  	justify-content: space-between;
+ }
+ .te-list{
+ 	height: 3.36rem;
+ 	width: 3.26rem;
+ 	border:0.01rem solid #dedede  ;
+ }
+.main{
+	width: 100%;
+	height: auto;
+	margin-bottom: 1.28rem;
+}
+.te-img{
+	width: 3.26rem;
+	height: 2.04rem;
+	display: flex;
+	justify-content: center;
+
+}
+.te-list img{
+	height: 2.04rem;
+}
+.xuexi{
+	font-size: 0.34rem;
+	color: #323232;
+	display: block;
+	text-align: center;
+	margin-top: 0.27rem;
+}
+.qiang{
+	font-size: 0.3rem;
+	color: #777777;
+	display: block;
+	text-align: center;
+}

@@ -1,0 +1,209 @@
+/*
+* @Author: 李亲亲ლ(°◕‵ƹ′◕ლ)
+* @Date:   2017-12-08 00:52:01
+* @Last Modified by:   李亲亲ლ(°◕‵ƹ′◕ლ)
+* @Last Modified time: 2017-12-08 09:16:46
+*/
+@import url('base.css');
+@font-face {
+  font-family: 'iconfont';  /* project id 500112 */
+  src: url('http://at.alicdn.com/t/font_500112_tjqko0f2g0wo2yb9.eot');
+  src: url('http://at.alicdn.com/t/font_500112_tjqko0f2g0wo2yb9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_500112_tjqko0f2g0wo2yb9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_500112_tjqko0f2g0wo2yb9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_500112_tjqko0f2g0wo2yb9.svg#iconfont') format('svg');
+}
+body{
+	background: #f0f0f0;
+}
+header{
+	width: 100%;
+	height: 1.70rem;
+	background: #ff6634;
+}
+.jiantou{
+	width: 0.5rem;
+	height: 1.7rem;
+	float: left;
+	margin-left: 0.6rem;
+}
+.icon{
+	font-family: 'iconfont';
+	font-size: 0.46rem;
+	display: block;
+	line-height: 1.7rem;
+	color: #fff;
+}
+.zhaq{
+	width: 2.8rem;
+	height: 1.7rem;
+	float: left;
+	margin-left: 1.08rem;
+}
+.zhaq a{
+	font-size: 0.5rem;
+	color: #fff;
+	line-height: 1.7rem;
+
+}
+.touxiang{
+	width: 100%;
+	height: 3.54rem;
+	background: #fff;
+	margin-top: 0.24rem;
+	border-top: 0.01rem solid #eaeaea;
+	border-bottom: 0.01rem solid #eaeaea;
+	box-sizing: border-box;
+}
+.tx-top{
+	width: 100%;
+	height: 2.1rem;
+	background:#fff;
+	border-bottom: 0.01rem solid #eaeaea;
+	box-sizing: border-box;
+}
+.tx-bot{
+	width: 100%;
+	height: 1.43rem;
+	
+}
+.tx-top-left{
+	width: 1rem;
+	height: 2.1rem;
+	margin-left: 0.45rem;
+	float: left;
+	
+}
+.tx-top-left a{
+	font-size: 0.44rem;
+	display: block;
+	line-height: 2.1rem;
+	color: #333;
+}
+.tx-top-reight{
+	height: 2.1rem;
+	width: 1.78rem;
+	float: right;
+	margin-right: 0.45rem;
+	
+}
+.tx-top-reight img{
+	width: 1.78rem;
+	margin-top: 0.16rem;
+}
+.tx-bot-left{
+	width: 1.45rem;
+	height: 1.43rem;
+	margin-left: 0.45rem;
+	
+	float: left;
+}
+.tx-bot-left a{
+	font-size: 0.44rem;
+	display: block;
+	line-height: 1.43rem;
+	color: #333;
+}
+.tx-box-right{
+	width: 3rem;
+	height: 1.43rem;
+	margin-right: 0.45rem;
+	
+	float: right;
+}
+.tx-box-right a{
+	font-size: 0.38rem;
+	display: block;
+	line-height: 1.43rem;
+	color: #999999;
+}
+.zhbd{
+	width: 100%;
+	height: 8.64rem;
+	margin-top: 0.24rem;
+}
+.zhbd ul{
+	width: 100%;
+	height: 8.64rem;
+	background:#fff;
+}
+.zhbd ul li{
+	width: 100%;
+	height: 1.41rem;
+	background:#fff;
+	border-bottom: 0.01rem solid #eaeaea;
+}
+.zhanfhaobangd{
+	font-size: 0.36rem;
+	color: #999999;
+	margin-left: 0.45rem;
+	display: block;
+	line-height: 1.41rem;
+}
+.icon1{
+	font-family: 'iconfont';
+	font-size: 0.54rem;
+	margin-left: 0.58rem;
+	display: block;
+	line-height: 1.41rem;
+	color: #ff6634;
+	float: left;
+}
+.shouji{
+	font-size: 0.44rem;
+	color: #333333;
+	margin-left: 0.3rem;
+	display: block;
+	line-height: 1.41rem;
+	float: left;
+
+}
+.weibangding{
+	font-size: 0.44rem;
+	color: #b7b5b5;
+	margin-right: 0.45rem;
+	display: block;
+	line-height: 1.41rem;
+	float: right;
+}
+.aqsz{
+	width: 100%;
+	height: 5.67rem;
+	background: #fff;
+	margin-top: 0.28rem;
+	margin-bottom: 0.2rem;
+}
+.aqsz ul{
+	width: 100%;
+	height: 5.67rem;
+	overflow: hidden;
+}
+.aqsz ul li{
+	width: 100%;
+	height: 1.41rem;
+	background:#fff;
+	border-bottom: 0.01rem solid #eaeaea;
+}
+.anquanshezhi{
+	font-size: 0.36rem;
+	color: #999999;
+	margin-left: 0.45rem;
+	display: block;
+	line-height: 1.41rem;
+}
+.denglu{
+	font-size: 0.44rem;
+	color: #333333;
+	margin-left: 0.45rem;
+	display: block;
+	line-height: 1.41rem;
+	float: left;
+}
+.weishezhi{
+	font-size: 0.44rem;
+	color: #b7b5b5;
+	margin-right: 0.45rem;
+	display: block;
+	line-height: 1.41rem;
+	float: right;
+}
